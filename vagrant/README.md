@@ -24,7 +24,7 @@ vagrant up
 创建好之后，依次通过`vagrant ssh 虚拟机名称`连接进去，默认ssh进去的用户是vagrant, 然后切到`root`用户（默认密码为 vagrant）, 将宿主机
 下的ssh公钥拷贝到三台虚拟机中的`~/.ssh/authorized_keys`文件中， 最后就可以通过`ssh root@172.17.8.101`连接了
 
-# 启动某人虚拟机
+# 启动某台虚拟机
 ```
 vagrant up 虚拟机名称
 ```
@@ -32,7 +32,7 @@ vagrant up 虚拟机名称
 ```
 vagrant halt
 ```
-# 关闭指定
+# 关闭某台虚拟机
 ```
 vagrant halt 虚拟机名称
 ```
